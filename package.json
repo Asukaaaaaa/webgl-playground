@@ -1,0 +1,17 @@
+{
+  "name": "webgl-ball",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.2"
+  },
+  "dependencies": {
+    "gl-matrix": "^3.3.0",
+    "parcel-bundler": "^1.12.4"
+  }
+}
